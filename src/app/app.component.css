@@ -1,0 +1,29 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .order{
+    margin:0px 0px;
+    height: 15%;
+    text-align: center;
+    background-color: rgb(234, 134, 46);
+    }
+    
+  h1{
+    padding: 35px 5px;
+    font-family:Comic Sans MS;
+    color: aliceblue;
+    font-style:oblique;
+    font-size: 30px;
+   }

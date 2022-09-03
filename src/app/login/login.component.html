@@ -1,0 +1,17 @@
+<div   mat-dialog-content>
+    <mat-card >
+        <mat-toolbar color="primary">Login</mat-toolbar>
+    <form [formGroup]="login" (ngSubmit)="getdata()" fxLayoutAlign="stretch" fxLayout="column" class="login-form" >
+        <mat-form-field>
+          <mat-label>Username</mat-label>
+          <input matInput placeholder="username" name="username" formControlName="username">
+        </mat-form-field>
+    <mat-form-field>
+            <mat-label>Password</mat-label>
+            <input matInput type="password" name="password"placeholder="Password" formControlName="password">
+          </mat-form-field> 
+          <button mat-raised-button type="submit">Login</button>
+      </form> 
+       </mat-card>
+</div>
+<router-outlet></router-outlet> 
